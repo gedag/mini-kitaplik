@@ -1,0 +1,150 @@
+/* Genel Ayarlar */
+body {
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Filtreleme Alanı */
+.filtreleme-alani {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.arama-input,
+.kategori-select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.arama-input {
+  flex-grow: 1;
+  max-width: 400px;
+}
+
+/* Uygulama Gövdesi */
+.uygulama-govde {
+  display: flex;
+  gap: 30px;
+}
+
+.kitap-liste {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.favori-panel {
+  flex: 1;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+/* Kitap Kartı */
+.kitap-karti {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.kitap-baslik {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #3498db;
+}
+
+.kitap-detay {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.kitap-karti button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.favori-pasif {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+}
+.favori-pasif:hover {
+  background-color: #e0e0e0;
+}
+
+.favori-aktif {
+  background-color: #f9e79f; /* Favoriye eklenmiş hali */
+  color: #b7950b;
+  border: 1px solid #f7dc6f;
+}
+.favori-aktif:hover {
+  background-color: #f7e1a3;
+}
+
+/* Favori Panel */
+.favori-panel h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.favori-liste {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.favori-liste li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.favori-liste li:last-child {
+  border-bottom: none;
+}
+
+.kaldir-button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+.kaldir-button:hover {
+  background-color: #c0392b;
+}

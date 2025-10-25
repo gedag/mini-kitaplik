@@ -1,21 +1,36 @@
-# React + Vite
+# 📖 Mini Kitaplık Projesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React eğitimi kapsamında verilen bir ödev çalışmasıdır.
 
-Currently, two official plugins are available:
+> Kullanıcıların kitap listesini filtreleyebildiği, arayabildiği ve favorilerine ekleyebildiği interaktif bir web uygulaması.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Temel Özellikler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Arama:** Kitapları başlığa göre anlık olarak arama.
+* **Filtreleme:** Kategoriye göre (Web, Tasarım, CS) filtreleme.
+* **Favoriler:** Kitapları favori listesine ekleme ve bu listeden çıkarma.
+* **Kalıcı Hafıza:** Sayfa yenilense veya kapatılıp açılsa bile:
+    * Son arama metni hatırlanır.
+    * Favori kitaplar listesi korunur (LocalStorage kullanımı).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Kullanılan Teknolojiler
 
-# Mini Kitaplık Ödevi
+Bu projeyi geliştirirken kullanılan teknolojiler:
 
-Projenin canlı linki:
-https://mini-kitaplik-rust.vercel.app
+| Teknoloji | Amaç |
+| :--- | :--- |
+| **React** | Arayüzü (UI) oluşturma ve state yönetimi |
+| **Vite** | Hızlı geliştirme ortamı ve proje yapılandırması |
+| **CSS** | Bileşenlerin ve genel sayfanın tasarlanması |
+
+---
+
+## 🚀 Proje Linki
+
+Uygulamanın Vercel üzerinde canlı olarak yayınlanan versiyonuna aşağıdaki linkten ulaşabilirsiniz:
+
+### ➡️ [https://mini-kitaplik-rust.vercel.app](https://mini-kitaplik-rust.vercel.app) ⬅️
